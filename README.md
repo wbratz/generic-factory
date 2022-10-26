@@ -7,8 +7,9 @@ classDiagram
     Initializer --> AbstractFactory
     AbstractFactory <|-- ConcreteFactory
     
+    Initializer : -Dictionary<IInputType, AbstractFactory> _factories
     Initializer : +Initialize()$
     Initializer : +Create()
     AbstractFactory : +Create()*
-    ConcreteFactory : +Create() OutputType
+    ConcreteFactory : +Create() IOutputType
 ```
