@@ -9,7 +9,7 @@ classDiagram
     AbstractFactory <|-- ConcreteFactory2
     
     Initializer : -Dictionary~IInputType, AbstractFactory~ _factories
-    Initializer : +Initialize() : Initializer$
+    Initializer : +Initialize() Initializer$
     Initializer : +Create(IInputType) IOutputType
     AbstractFactory : +Create()* IOutputType
     ConcreteFactory : +Create() IOutputType
