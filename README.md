@@ -1,6 +1,7 @@
 # Generic Factory
 ### Generic version of my favorite factory pattern implementation
 
+```mermaid
 classDiagram
     Animal <|-- Duck
     Animal <|-- Fish
@@ -22,3 +23,4 @@ classDiagram
         +bool is_wild
         +run()
     }
+```
