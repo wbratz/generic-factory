@@ -7,5 +7,5 @@ classDiagram
     Initializer --> AbstractFactory
     AbstractFactory <|-- ConcreteFactory
     
-    AbstractFactor : +Create()
+    AbstractFactory : +Create()
 ```
