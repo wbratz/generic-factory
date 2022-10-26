@@ -5,4 +5,7 @@
 classDiagram
     Client --> Initializer
     Initializer --> AbstractFactory
+    AbstractFactory <|-- ConcreteFactory
+    
+    AbstractFactor : +Create()
 ```
