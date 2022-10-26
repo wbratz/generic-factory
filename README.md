@@ -6,7 +6,7 @@ classDiagram
     Client --> Initializer
     Initializer --> AbstractFactory
     AbstractFactory <|-- ConcreteFactory
-    AbstractFactory <|-- ConcreateFactory2
+    AbstractFactory <|-- ConcreteFactory2
     
     Initializer : -Dictionary~IInputType, AbstractFactory~ _factories
     Initializer : +Initialize()$
