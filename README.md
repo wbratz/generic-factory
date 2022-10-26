@@ -7,5 +7,8 @@ classDiagram
     Initializer --> AbstractFactory
     AbstractFactory <|-- ConcreteFactory
     
-    AbstractFactory : +Create()
+    Initializer : +Initialize()$
+    Initializer : +Create()
+    AbstractFactory : +Create()*
+    ConcreteFactory : +Create() OutputType
 ```
